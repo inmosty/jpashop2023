@@ -1,0 +1,19 @@
+spring: #없어도 메모리디비로 띄움
+#  datasource:
+#    url: jdbc:h2:mem:test #테스트시 메모리모드로 디비생성
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+#    properties:
+#      hibernate:
+#        #show_sql: true
+#        format_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace

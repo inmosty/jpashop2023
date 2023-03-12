@@ -1,6 +1,5 @@
 package jpabook.jpashop2023.service;
 
-import jpabook.jpashop2023.domain.item.Book;
 import jpabook.jpashop2023.domain.item.Item;
 import jpabook.jpashop2023.repository.ItemRepository;
 import lombok.RequiredArgsConstructor;
